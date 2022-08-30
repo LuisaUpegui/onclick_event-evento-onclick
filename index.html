@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="./css/style.css" >
+</head>
+<body>
+    <header>
+        <nav><!-- Barra de navegación-->
+            <h1 class="titulo">Dojonary</h1>
+            <input  type="search" name="search" placeholder="search" class="bus">
+            <button  class="btn" id="button" onclick="cambiar()"> Login </button></li>
+        </nav>
+    </header>
+
+    <main><!--contenedores columna derecha-->
+        <div class="contenedor">
+            <div class="columnaizquierda"> <!--columna izquierda -->
+                <div class="ninja1">
+                    <div class="letras">
+                        <h1 class="nin" > ninja </h1>
+                        <h2 > noun </h2>
+                        <h3> Plural: ninjas</h3>
+                        <button class="btn2"   onclick="alerta()" > 13 likes </button>
+                    </div>
+                    <p class="par"> 
+                    practitioner skilled in the 
+                    <a href="#">Japanese</a> 
+                    art of 
+                    <a href="#"> ninjutsu</a> 
+                    </p>
+                </div>
+                <div class="ninja2">
+                    <div class="letras2">
+                        <h1 class="nin"> ninja </h1>
+                        <h2 > noun </h2>
+                        <h3> Plural: ninjas</h3>
+                        <button class="btn2"> 37 likes </button>
+                    </div>
+                    <p class="par"> A 
+                    <a href="#"> programmer </a> 
+                    who breaks 
+                    down problems with 
+                    <a href="#">zen </a> 
+                    -like focus
+                    </p>
+                </div>
+            </div>
+            <div class="columnaderecha"> <!--columna derecha-->
+                <div class="text">
+                    <p class="you1">Dojonary is
+                    defined by <span> YOU</span></P>
+                    <button  onclick="aceptar()"class="add"> Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    margin: 0 auto;
+
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: rgb(181, 178, 178);
+    width: 600px;
+    height: 70px;
+    align-items: center;
+}
+
+
+
+.contenedor{
+
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.columnaizquierda{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+
+}
+
+.columnaderecha{
+    border: 3px solid  rgb(0, 0, 0);
+    height: 90px;
+    margin-left: 40px;
+    width: 156px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.ninja1{
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+
+}
+
+.letras{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+h2 {
+    font-size: larger;
+    font-style:italic;
+}
+
+h3{
+    font-size:small;
+    font-weight: lighter;
+}
+
+.letras2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.ninja2{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+
+}
+
+p {   
+    padding: 10px;
+    width: 220px;
+    height: 30px;
+    align-items: center;   
+    padding-top: 38px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.you1{
+    width: 120px;
+    margin-left: -5px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    width: 54px;
+    height: 26px;
+    color: white;
+    border: 1px solid black ;
+    box-shadow: 2px 2px 2px black;
+    background-color: blue;
+}
+
+input{
+    width: 280px;
+    border: 2px solid  ;
+    border-radius: 4%;
+    height: 23px;
+}
+
+.btn2{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(243, 213, 20);
+}
+
+a{
+    color: rgb(31, 31, 202);
+}
+
+.add{
+    background-color: rgb(71, 178, 118);
+    margin-left: 18px;
+    margin-bottom: 2px;
+    width: 120px;
+    height: 27px;
+}
+
+span{
+    font-weight: bold;
+}
